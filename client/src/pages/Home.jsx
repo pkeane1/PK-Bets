@@ -1,9 +1,14 @@
 import React from 'react';
+import {Container} from "../components/Grid"
+import Nav from "../components/Nav"
 
 
 const Home = () => {
     return(
-        <h1>hi</h1>
+        <Container>
+        <Nav/>
+        
+        </Container>
     )
 }
 
