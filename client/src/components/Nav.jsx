@@ -8,16 +8,12 @@ const Nav = () => {
             <h1>
                 <strong>PK Bets</strong>
             </h1>
-
-            <ul className='nav ml-auto' id='nav'>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">login</a>
-                </li>
-
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div className="navbar-nav ml-auto">
+      <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a className="nav-item nav-link" href="#">Login</a>
+      </div>
+  </div>
 
         </nav>
     )

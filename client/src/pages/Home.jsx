@@ -1,12 +1,13 @@
 import React from 'react';
 import {Container} from "../components/Grid"
-import Nav from "../components/Nav"
+// import Nav from "../components/Nav"
+import ButtonAppBar from "../components/Nav"
 
 
 const Home = () => {
     return(
         <Container>
-        <Nav/>
+        <ButtonAppBar/>
         
         </Container>
     )
