@@ -1,13 +1,16 @@
 import React from 'react';
 import {Container} from "../components/Grid"
-// import Nav from "../components/Nav"
-import ButtonAppBar from "../components/Nav"
+import Nav from '../components/Nav';
+import Sport from '../components/Sport'
+
+
 
 
 const Home = () => {
     return(
         <Container>
-        <ButtonAppBar/>
+        <Nav/>
+        <Sport/>
         
         </Container>
     )
