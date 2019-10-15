@@ -11,9 +11,9 @@ return (
       size="large"
       aria-label="large outlined secondary button group"
     >
-      <Button>One</Button>
-      <Button>Two</Button>
-      <Button>Three</Button>
+      <Button>Football</Button>
+      <Button>Hockey</Button>
+      <Button>Baseball</Button>
     </ButtonGroup>
   </Grid>
     
