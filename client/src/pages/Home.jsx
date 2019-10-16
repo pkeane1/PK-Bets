@@ -11,11 +11,9 @@ const Home = () => {
         <Container>
         <Nav/>
             <Row>
-                <Col size ='md-4'></Col>
-                <Col size ='md-4'>
+                
                     <Sport/>
-                </Col>
-                <Col size ='md-4'></Col>
+               
             </Row>
         </Container>
     )

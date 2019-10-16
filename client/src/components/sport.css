@@ -1,0 +1,23 @@
+.one {
+    width: 205px;    
+    height: 35px;
+}
+
+.two {
+    width: 205px;
+    height: 35px;    
+}
+
+.three {
+    width: 205px; 
+    height: 35px;   
+}
+
+div.MuiGrid-item {
+    margin:auto;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+}
